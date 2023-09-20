@@ -1,0 +1,324 @@
+.top{
+min-height: 100vh;
+width: 100%;
+position: relative;
+}
+#slide ul{
+position: relative;
+width: 100%;
+padding: 0;
+margin: 0;
+min-height: 100vh;
+}
+#slide li{
+position: absolute;
+object-fit: cover;
+list-style: none;
+}
+#slide img{
+width: 100%;
+min-height: 100vh;
+object-fit: cover;
+}
+#button ul{
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+padding: 0;
+top: 20px;
+margin-top: -40px;
+}
+#button ul li{
+list-style: none;
+}
+#button ul li a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+width: 14px;
+height: 14px;
+border-radius: 7px;
+background-color: #fff;
+position: relative;
+}
+.top h2{
+color: #fff;
+font-family: 'Yellowtail',cursive;
+font-size: 125px;
+font-weight: 500;
+text-align: center;
+text-shadow: 0 0 8px rgb(0, 0, 0, 0.4);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin: auto;
+white-space: nowrap;
+}
+.scroll_fadein{
+opacity: 0;
+}
+.fadein_animation_start{
+animation-name: fadein_animation;
+animation-delay: 0.3s;
+animation-duration: 1s;
+animation-fill-mode:both;
+}
+@keyframes fadein_animation{
+0%{
+opacity: 0;
+}
+100%{
+opacity: 1;
+transform: franslate(0);
+}
+}
+.slldeup{
+transform: translateY(50px);
+}
+.slidedown{
+transform: translateY(-50px);
+}
+.slideright{
+transform: translateX(50px);
+}
+.slideleft{
+transform: translateX(-50px);
+}
+.top_message {
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 200px 0 150px 0;
+}
+.top_message p{
+font-family: "LFT Etica Sheriff";
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+line-height: 3.0rem;
+margin: 0;
+padding: 50px;
+}
+.top_message img{
+width: 690px;
+height: 430px;
+object-fit: cover;
+}
+.about{
+position: relative;
+margin-bottom: 110px;
+}
+.about:hover {
+filter: opacity(70%);
+cursor: pointer;
+}
+.about img{
+width: 100%;
+height: 768px;
+object-fit: cover;
+filter: contrast(0.6);
+}
+.about h2{
+color: #fff;
+font-family: 'Yellowtail',cursive;
+font-size: 150px;
+font-weight: 400;
+text-align: center;
+letter-spacing: 1.5rem;
+position: absolute;
+margin: auto;
+top: 260px;
+right: 0;
+left: 0;
+display: flex;
+justify-content: space-evenly;
+}
+.work{
+top: -82px;
+position: relative;
+}
+.work:hover {
+filter: opacity(70%);
+cursor: pointer;
+}
+.work img{
+width: 100%;
+height: 768px;
+object-fit: cover; 
+filter: contrast(0.6);
+}
+.work h2{
+color: #fff;
+font-family: 'Yellowtail',cursive;
+font-size: 150px;
+font-weight: 400;
+text-align: center;
+letter-spacing: 1.5rem;
+position: absolute;
+margin: auto;
+top: 260px;
+right: 0;
+left: 0;
+display: flex;
+justify-content: space-evenly; 
+}
+@media (min-width: 1060px) and (max-width: 1215px){
+.top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+}
+.top_message img{
+width: 635px;
+object-fit: cover;
+}
+}
+@media (min-width: 880px) and (max-width: 1060px){
+.top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+padding: 0;
+margin-right: 15px;
+}
+.top_message img{
+width: 535px;
+object-fit: cover;
+}
+}
+@media (min-width: 755px) and (max-width: 880px){
+.top h2{
+font-size: 90px;
+}
+.top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+padding: 0;
+}
+.top_message img{
+width: 430px;
+object-fit: cover;
+}
+}
+@media (min-width: 687px) and (max-width: 755px){
+.top h2{
+font-size: 90px;
+}
+.top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+padding: 0;
+margin-right: 15px;
+}
+.top_message img{
+width: 320px;
+object-fit: cover;
+}
+}
+@media (min-width: 550px) and (max-width: 687px){
+.top h2{
+font-size: 72px;
+}
+.top_message p{
+font-size: 10px;
+line-height: 2.0rem;
+padding: 0;
+margin-right: 15px;
+position: absolute;
+z-index: 5;
+padding-left: -29px;
+margin-left: -160px;
+color: #fff;
+}
+.top_message img{
+width: 460px;
+object-fit: cover;
+position: relative;
+z-index: 0;
+filter: contrast(0.6);
+}
+.about h2{
+font-size: 95px;
+top: 350px;
+}
+.work h2{
+font-size: 95px;
+top: 350px;
+}
+}
+@media (min-width: 460px) and (max-width: 550px){
+.top h2{
+font-size: 62px;
+}
+.top_message p{
+font-size: 10px;
+line-height: 2.0rem;
+padding: 0;
+margin-right: 15px;
+position: absolute;
+z-index: 5;
+padding-left: -29px;
+margin-left: -160px;
+color: #fff;
+}
+.top_message img{
+width: 460px;
+object-fit: cover;
+position: relative;
+z-index: 0;
+filter: contrast(0.6);
+}
+.about h2{
+font-size: 75px;
+top: 350px;
+}
+.work h2{
+font-size: 75px;
+top: 350px;
+}
+}
+@media(max-width: 460px){
+#slide img{
+width: 100%;
+object-fit: cover;
+min-height: 530px;
+} 
+#button{
+margin-top:-155px
+}  
+.top h2{
+font-size: 35px;
+top: 220px;
+}
+.top_message{
+margin-top: 125px;
+}
+.top_message p{
+font-size: 10px;
+line-height: 2.0rem;
+position: absolute;
+z-index: 5;
+color: #fff;
+}
+.top_message img{
+width: 356px;
+object-fit: cover;
+position: relative;
+z-index: 0;
+filter: contrast(0.6);
+}
+.about img{
+height: 615px;
+}
+.about h2{
+font-size: 35px;
+}
+.work img{
+height: 615px;
+}
+.work h2{
+font-size: 35px;
+}
+}
+

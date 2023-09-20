@@ -1,0 +1,84 @@
+.top{
+background-image: url(../picture/contact.jpg);
+width: 100%;
+height: 1055px;
+position: relative;
+z-index: 0;
+display: flex;
+justify-content: center;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: cover;
+
+}
+.top h2{
+color: #fff;
+font-family: 'Yellowtail',cursive;
+font-size: 100px;
+font-weight: 500;
+text-align: center;
+text-shadow: 0 0 8px rgb(0, 0, 0, 1.4);
+letter-spacing: 1.5rem;
+position: absolute;
+z-index: 5;
+right: 0;
+left: 0;
+top: 230px;
+margin: auto;
+}
+.form{
+position: absolute;
+z-index: 6;
+top: 530px;
+}
+form div{
+margin-bottom: 14px;
+}
+label{
+font-size: 12px;
+margin-bottom: 10px;
+display: block;
+}
+input[type="text"],input[type="email"],textarea{
+background-color:rgba(255, 255, 255, .5);
+border: 1px #fff solid;
+border-radius: 5px;
+padding: 10px;
+font-size: 10px;
+}
+input[type="text"],input[type="email"]{
+width: 100%;
+max-width: 240px;
+}
+textarea{
+width: 400px;
+max-width: 1340px;
+height: 165px;
+}
+@media (min-width: 520px) and (max-width:620px){
+.top h2{
+font-size: 80px;
+}
+}
+@media (min-width: 445px) and (max-width: 520px){
+.top h2{
+font-size: 60px;
+}
+}
+@media (min-width: 370px) and (max-width: 445px){
+.top h2{
+font-size: 45px;
+}
+textarea{
+width: 320px;
+}
+}
+@media (max-width: 370px){
+.top h2{
+font-size: 35px;
+}
+textarea{
+width: 250px;
+}
+}
