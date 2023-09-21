@@ -282,17 +282,15 @@ top: 350px;
 #slide img{
 width: 100%;
 object-fit: cover;
-min-height: 530px;
 } 
 #button{
 margin-top:-155px
 }  
 .top h2{
 font-size: 35px;
-top: 220px;
 }
 .top_message{
-margin-top: 10px;
+margin-top: 135px;
 }
 .top_message p{
 font-size: 10px;
