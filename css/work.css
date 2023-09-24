@@ -289,13 +289,16 @@ margin-top: 100px;
 gap: 38px;
 }
 .choice a {
-font-size: 12px;
+font-size: 16px;
 }
 .work_content{
 padding-top: 80px;
 }
 .work_content ul {
 display: contents;
+}
+.work_content ul li{
+margin-bottom: 45px;
 }
 .sample_box{
 width: 275px;
@@ -316,7 +319,7 @@ font-size: 18px;
 font-weight: 500;
 }
 .work_content p{
-font-size: 8px;
+font-size: 12px;
 font-weight: 500;
 color: #646464;
 }

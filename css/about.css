@@ -74,6 +74,7 @@ padding-right: 10px;
 }
 .about_text p{
 margin: 0;
+line-height: 2.0rem;
 }
 .skill{
 margin-top: 300px;
@@ -551,7 +552,6 @@ max-width: 470px;
 padding: 10px;
 }
 .about_text p{
-margin: 5px;
 font-size: 16px;
 }
 .skill{
@@ -674,7 +674,6 @@ max-width: 350px;
 padding: 10px;
 }
 .about_text p{
-margin: 5px;
 font-size: 16px;
 }
 .skill{

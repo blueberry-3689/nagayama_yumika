@@ -210,4 +210,8 @@ display: none;
 .footer-manu{
 display: none;
 }
-
+/*サイトを作った目的*/
+.table_content p{
+margin: 0;
+line-height: 1.8rem;
+}
