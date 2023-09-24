@@ -2,9 +2,9 @@
 text-align: center;
 }
 .top h2{
-font-family: LFT Etica Sheriff;
+font-family: 'Lora', serif;
 font-size: 70px;
-font-weight: 400;
+font-weight: 600;
 letter-spacing: 0.6rem;
 text-align: center;
 padding-top: 150px;
@@ -20,6 +20,7 @@ border: 2px solid #4C4C4C;
 }
 .portfolio_content{
 margin: 100px 0 100px 0;
+font-family: 'Lora', serif;
 }
 .table_content{
 margin-left: auto;

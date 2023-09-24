@@ -44,8 +44,8 @@ position: relative;
 }
 .top h2{
 color: #fff;
-font-family: 'Yellowtail', cursive;
-font-size: 125px;
+font-family:  'Libre Bodoni', serif;
+font-size: 95px;
 font-weight: 500;
 text-align: center;
 text-shadow: 0 0 8px rgb(0, 0, 0, 0.4);
@@ -123,11 +123,11 @@ filter: contrast(0.6);
 }
 .about h2{
 color: #fff;
-font-family: 'Yellowtail', cursive;
+font-family: 'Libre Bodoni', serif;
 font-size: 150px;
 font-weight: 400;
 text-align: center;
-letter-spacing: 1.5rem;
+letter-spacing: 0.5rem;
 position: absolute;
 margin: auto;
 top: 260px;
@@ -152,11 +152,11 @@ filter: contrast(0.6);
 }
 .work h2{
 color: #fff;
-font-family: 'Yellowtail', cursive;
+font-family: 'Libre Bodoni', serif;
 font-size: 150px;
 font-weight: 400;
 text-align: center;
-letter-spacing: 1.5rem;
+letter-spacing: 0.5rem;
 position: absolute;
 margin: auto;
 top: 260px;
@@ -189,7 +189,7 @@ object-fit: cover;
 }
 @media (min-width: 755px) and (max-width: 880px){
 .top h2{
-font-size: 90px;
+font-size: 70px;
 }
 .top_message p{
 font-size: 14px;
@@ -218,7 +218,7 @@ object-fit: cover;
 }
 @media (min-width: 550px) and (max-width: 687px){
 .top h2{
-font-size: 72px;
+font-size: 55px;
 }
 .top_message p{
 font-size: 10px;
@@ -249,7 +249,7 @@ top: 350px;
 }
 @media (min-width: 460px) and (max-width: 550px){
 .top h2{
-font-size: 62px;
+font-size: 45px;
 }
 .top_message p{
 font-size: 10px;
