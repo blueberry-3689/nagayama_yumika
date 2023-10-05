@@ -109,7 +109,7 @@ object-fit: cover;
 }
 .about{
 position: relative;
-margin-bottom: 110px;
+margin-bottom: 75px;
 }
 .about:hover {
 filter: opacity(70%);
